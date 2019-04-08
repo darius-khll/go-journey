@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-journey/calc"
+	"go-journey/Packages/calc"
 )
 
 type Person struct {
