@@ -1,4 +1,4 @@
-module go-journey
+module github.com/alikhll/go-journey
 
 go 1.12
 

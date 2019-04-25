@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"go-journey/cmd"
+	"github.com/alikhll/go-journey/cmd"
 )
 
 func main() {
