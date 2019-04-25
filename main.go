@@ -2,16 +2,17 @@ package main
 
 import (
 	"fmt"
-	"go-journey/Packages/calc"
+	"os"
+
+	"go-journey/cmd"
 )
 
-type Person struct {
-	string
-	int
+func main() {
+	if err := cmd.RootCmd.Execute(); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
 }
 
-func main() {
-	p := Person{"Naveen", 50}
-	fmt.Println(p)
-	calc.Sum(1, 2)
-}
+// ./t mars --lang es
+// ./t traveller Boston
